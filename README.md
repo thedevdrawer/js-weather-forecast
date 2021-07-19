@@ -1,4 +1,4 @@
-# js-weather-forecast
+# JS Weather Forecast
 Create a website that uses a free weather API to show forecasts.
 
 This tutorial will show you how to build JavaScript weather forecast website. We use a free API from OpenWeather and build out our own custom jQuery function that gives either yourself or your script users a way to customize the JS without touching the new script.
