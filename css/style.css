@@ -1,0 +1,84 @@
+.city {
+  display: block;
+  text-align: center;
+}
+
+.forecast {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+  grid-gap: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.forecast.vertical {
+  grid-template-columns: none;
+  margin-bottom: 1rem;
+}
+
+.forecast h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.forecast .singleweather {
+  margin: 1rem 0;
+}
+
+.forecast .description {
+  text-transform: capitalize;
+  font-size: 0.7rem;
+}
+
+.forecast img {
+  max-width: 100%;
+}
+
+.forecast .temp {
+  font-size: 1.5rem;
+}
+
+.today {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.today .description {
+  text-transform: capitalize;
+  font-size: 0.9rem;
+}
+
+.today img {
+  max-width: 100%;
+}
+
+.today .temp {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.today .city {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.today .extra {
+  width: 100%;
+}
+
+.today .extra .span {
+  width: 33%;
+  display: inline-block;
+}
+
+.today .extra .span .inner {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.today .extra .span .inner small {
+  font-size: 0.6rem;
+}

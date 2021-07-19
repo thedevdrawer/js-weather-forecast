@@ -1,0 +1,70 @@
+.city {
+	display: block;
+	text-align: center;
+}
+
+.forecast {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+	grid-gap: 10px;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	text-align: center;
+	&.vertical {
+		grid-template-columns: none;
+		margin-bottom: 1rem;
+	}
+	h3 {
+		font-size: 1.2rem;
+		margin: 0;
+	}
+	.singleweather {
+		margin: 1rem 0;
+	}
+	.description {
+		text-transform: capitalize;
+		font-size: 0.7rem;
+	}
+	img {
+		max-width: 100%;
+	}
+	.temp {
+		font-size: 1.5rem;
+	}
+}
+
+.today {
+	padding: 1rem;
+	margin-bottom: 1rem;
+	text-align: center;
+	.description {
+		text-transform: capitalize;
+		font-size: 0.9rem;
+	}
+	img {
+		max-width: 100%;
+	}
+	.temp {
+		font-size: 3rem;
+		font-weight: bolder;
+	}
+	.city {
+		font-size: 0.8rem;
+		margin-top: 1rem;
+	}
+	.extra {
+		width: 100%;
+		.span {
+			width: 33%;
+			display: inline-block;
+			.inner {
+				text-align: center;
+				font-size: 0.8rem;
+				small {
+					font-size: 0.6rem;
+				}
+			}
+		}
+	}
+}
